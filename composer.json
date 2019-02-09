@@ -1,0 +1,22 @@
+{
+    "name": "roger/tatami",
+    "description": "PHP Skeleton for PHP code katas",
+    "keywords": ["kata","TDD", "PHP"],
+    "authors": [
+        {
+            "name": "Roger Cendrós",
+            "email": "rogercbe@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "minimum-stability": "dev"
+}
